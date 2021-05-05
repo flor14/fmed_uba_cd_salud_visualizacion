@@ -1,6 +1,6 @@
-# Visualizacion 
-## Ciencia de Datos en Salud
-Junio de 2021 - Facultad de Medicina - Universidad de Buenos Aires
+# Visualización 
+Miércoles de 18 a 21 hs - 9 al 30 de Junio de 2021
+Facultad de Medicina - Universidad de Buenos Aires
 
 ----------
 
@@ -8,7 +8,45 @@ _Dra. Maria Florencia D'Andrea - [INTA - CONICET](https://flor14.github.io/onlin
 <a href="https://twitter.com/cantoflor_87" class="twitter-follow-button" data-show-count="false">Twitter</a>
 
 _Micaela Zapata_ - _Fmed - UBA_ - 
-<a href="https://twitter.com/patriloto" class="twitter-follow-button" data-show-count="false">Twitter</a>
+<a href="https://twitter.com/" class="twitter-follow-button" data-show-count="false">Twitter</a>
+
+----------
+
+Visualización de datos abarca desde los primeros análisis exploratorios al inicio de un proyecto como las consideraciones que debemos tener al momento de publicar nuestros gráficos finales con calidad.
+Este módulo del curso ciencia de datos en salud propone de una forma práctica y concisa a traves de cuatro clases, uan serie de herramientas para poder 
+¿Cómo elegir la mejor forma de visualizar mis datos? ¿Qué herramientas disponibles en R existen para permitirme  
+
+----------
+## Programa
+
+Clase 1 - **Introducción a la visualización de datos en R y al paquete `ggplot2`** - Miércoles 9 de junio 
+* ¿Qué es el `tidyverse` y por qué es importante conocerlo? 
+* Estructura básica de un gráfico `ggplot2` ¿Cómo nos ayuda que este paquete utilice la "gramática de gráficos"?
+* Evitando errores frecuentes
+* Consideraciones para elegir el gráfico más adecuado para tus datos.
+* Presentación de algunos de los tipos de gráficos más usados. Funciones `geom_*()`.
+
+Objetivo: Que los estudiantes puedan crear un gráfico basico usando `ggplot2()` y puedan comprender los errores más comunes asociados a la función `aes()` y la creacion de capas.
+
+Clase 2 - **El desafío de graficar tus datos** - Miércoles 16 de junio 
+* No sé por dónde empezar: ¿Dónde podemos buscar ayuda o inspiración? Algunos errores comunes en relación al tipo 
+* Control, alta y baja: el paquete `forcats` para trabajar con categorias.
+* ¿Existe alguna alternativa al clásico gráfico de barras?
+* Selección de una escala de colores adecuada y transformaciones en los ejes. Funciones `scale_*()`, `coord_*()`.
+
+Objetivo: Que los estudiantes puedan, partiendo de código de gráficos ya armados, visualizar sus propios datos (1) ajustando los argumentos de los graficos, (2)
+
+Clase 3 - **Gráficos interactivos y Reproducibilidad** - Miércoles 23 de junio 
+* Cúando y dónde: algunas consideraciones para trabajar con fechas y coordenadas geográficas.
+* Graficos interactivos en `plotly` y el concepto de sintaxis en programación.
+* ¿Cómo puede salvarte tiempo la reproducibilidad?. Funciones `theme_*()` y `ggsave()`.
+ 
+Clase 4 - **Aplicaciones web / dashboards** - Miércoles 30 de junio 
+* `Shiny` 
+* Interactividad
+* Cierre del curso
+
+Objetivo: que los estudiantes puedan realizar una aplicacion donde puedan 
 
 ----------
 
