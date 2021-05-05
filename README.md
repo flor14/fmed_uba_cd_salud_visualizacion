@@ -1,16 +1,13 @@
-# R para Análisis de Datos
-
-17 al 21 de febrero 2020 - Universidad Nacional del Nordeste
+# Visualizacion 
+## Ciencia de Datos en Salud
+Junio de 2021 - Facultad de Medicina - Universidad de Buenos Aires
 
 ----------
-
-_Dra. Roxana Noelia Villafañe - [LEMyP](roxananoelia.netlify.com)_ - 
-<a href="https://twitter.com/data_datum" class="twitter-follow-button" data-show-count="false">Twitter</a>
 
 _Dra. Maria Florencia D'Andrea - [INTA - CONICET](https://flor14.github.io/online-cv-es/)_ - 
 <a href="https://twitter.com/cantoflor_87" class="twitter-follow-button" data-show-count="false">Twitter</a>
 
-_Lic. Patricia Loto_ - _Lotería Chaqueña_ - 
+_Micaela Zapata_ - _Fmed - UBA_ - 
 <a href="https://twitter.com/patriloto" class="twitter-follow-button" data-show-count="false">Twitter</a>
 
 ----------
@@ -23,21 +20,9 @@ _Lic. Patricia Loto_ - _Lotería Chaqueña_ -
 
 [Filminas introductorias](https://flor14.github.io/intro_r/intro_r.html) 
 
-[Filminas manejo y ordenamiento de datos](https://drive.google.com/file/d/1UlnDlTe1Mn-U4eSBS5fzZJ_4xABuO9jL/view?usp=sharing)
-
-[Práctica dplyr](dplyr-ejercicios.utf8.pdf)
-
-[Trucos de dplyr](dplyr-trucos.utf8.pdf)
-
-[Dplyr Ejercicios 2](https://drive.google.com/file/d/1DZjmPdBUMi_qxSukn8CWhmrYjwDOIRsq/view?usp=sharing)
-
 [Filminas visualizacion](https://flor14.github.io/visualizacion_2020/visualizacion#1) 
 
 [Práctica visualización](https://flor14.github.io/Curso_r_unne_2020/practica_vis_funciona.html)
-
-[Filminas Modelado](https://drive.google.com/file/d/1nz-0iMlENjIc9p5JvLzlh5OGBObGqgiT/view?usp=sharing)
-
-[RMarkdown](https://drive.google.com/file/d/1olGAdrZcDPeijTIVfMQK4ZX_JM3F_Hbi/view?usp=sharing)
 
 [Resueltos Práctica de visualización / Práctica RMarkdown](https://github.com/flor14/Curso_r_unne_2020/blob/master/practica_vis_funciona.Rmd)
 
@@ -101,10 +86,7 @@ Parte práctica [![Binder](https://mybinder.org/badge_logo.svg)]()
  * [R4DS en Español (twitter)](https://twitter.com/r4ds_es?lang=es)
  * [The Carpentries](https://carpentries.org/)
  
-## Congresos 
- 
- * [LatinR](http://latin-r.com)
-  
+
 
 
 
