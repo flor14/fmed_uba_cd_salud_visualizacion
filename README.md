@@ -1,8 +1,10 @@
 # Visualización 
 Miércoles de 18 a 21 hs - 9 al 30 de Junio de 2021
+
 Facultad de Medicina - Universidad de Buenos Aires
 
 ----------
+## Docentes
 
 _Dra. Maria Florencia D'Andrea - [INTA - CONICET](https://flor14.github.io/online-cv-es/)_ - 
 <a href="https://twitter.com/cantoflor_87" class="twitter-follow-button" data-show-count="false">Twitter</a>
@@ -12,15 +14,20 @@ _Micaela Zapata_ - _Fmed - UBA_ -
 
 ----------
 
-¡Hola, agradeceriamos si puedes completar nuestra [Encuesta inicial]()
+## ¡Hola!
+
+Agradeceriamos si puedes completar nuestra [encuesta inicial]()
 
 ----------
 
-El módulo de visualización presenta herramientas para graficar en R utilizando bases de datos relevantes para las ciencias de la salud. Introduciendo de una forma amena la programación, todo el curso esta diseñado para brindar solo los conceptos teoricos esenciales para ayudarlos a reconocer y evitar las complicaciones que suelen aparecer al momento de escribir código, acompañando al estudiante en sus primeros pasos en el rol de analista de datos. 
+## Nuestra propuesta
 
-Luego de las cuatro clases propuestas será evidente la versatilidad que brinda R para visualización; en pocas líneas de código generaremos desde gráficos reproducibles con calidad de publicación así como visualizaciones interactivas que facilitan la comunicación de nuestros resultados para un público amplio.
+El módulo de visualización presenta herramientas para graficar en R utilizando bases de datos relevantes para las ciencias de la salud. Todo el curso esta enfocado en brindar los conceptos teóricos esenciales para reconocer y evitar las complicaciones típicas que suelen aparecer al escribir el código de los gráficos. Es decir, nuestra prioridad es acompañar al estudiante en sus primeros pasos en el rol de científic@ de datos con R. 
+
+En el transcurso de las cuatro clases propuestas será evidente la versatilidad que brinda R para visualización; en pocas líneas de código generaremos desde gráficos reproducibles con calidad de publicación así como visualizaciones interactivas que facilitan la comunicación de nuestros resultados para un público amplio.
 
 ----------
+
 ## Programa
 
 #### Clase 1 - **Introducción a la visualización de datos en R y al paquete `ggplot2`** - Miércoles 9 de junio 
@@ -28,27 +35,27 @@ Luego de las cuatro clases propuestas será evidente la versatilidad que brinda 
 * Introducción a `ggplot2` ¿Cómo nos ayuda que este paquete utilice la "gramática de gráficos"?
 * Presentación de algunos de los tipos de gráficos más comunes. Funciones `geom_*()` y `aes()`.
 
-*Objetivo*: Que los estudiantes creen un gráfico básico usando `ggplot2()` y comprendan los fundamentos téoricos necesarios para evitar errores comunes que pueden aparecer ligados a (1) mapear tres variables (función `aes()`) y (2) la creación de gráficos en capas.
+*Objetivo*: Que los estudiantes creen un gráfico básico usando `ggplot()` y comprendan los fundamentos téoricos necesarios para evitar errores comunes que pueden aparecer ligados a (1) mapear tres variables (función `aes()`) y (2) la creación de gráficos en capas.
 
 #### Clase 2 - **El desafío de graficar tus datos** - Miércoles 16 de junio 
 * Preparando mi base de datos para graficar: tipos de datos y formato de tablas `long` y `wide` en relación a los tipos de gráficos.
 * Control, alta y baja: el paquete `forcats` nos ayuda a trabajar con categorias.
 * ¿Existe alguna alternativa al clásico gráfico de barras? Reflexionando sobre algunas visualizaciones comunes en el campo de las ciencias de la salud.
 
-*Objetivo*: Que los estudiantes puedan realizar modificaciones en las bases de datos en relación a (1) el tipo de dato de las columnas que representan sus variables de interes, (2) el formato ancho o largo de la tabla y (3) variables factoriales. Se pretende que el estudiante reconozca en base al gráfico deseado las transformaciones necesarias de realizar a sus datos de base.
+*Objetivo*: Que los estudiantes puedan realizar modificaciones en las bases de datos en relación a (1) el tipo de dato de las columnas que representan sus variables de interes, (2) el formato ancho o largo de la tabla y (3) distintas formas de exprear factores. Se pretende que el estudiante reconozca para el gráfico objetivo las transformaciones necesarias de realizar a sus datos de base.
 
 #### Clase 3 - **Escalas, Gráficos interactivos y Reproducibilidad** - Miércoles 23 de junio 
 * Selección de una paleta de colores adecuada (divergente, secuencial o cualitativa). Transformaciones en los ejes. Funciones `scale_*()` y `coord_*()`.
 * ¿Cómo puede salvarte tiempo la reproducibilidad?. Comunicación efectiva de resultados. Funciones `theme_*()` y `ggsave()`.
 * Gráficos interactivos en `plotly` y nociones sobre el concepto de sintaxis en programación que pueden evitarte dolores de cabeza.
 
-*Objetivo*: Que los estudiantes puedan (1) elegir una paleta de colores para la función `scale_*()` de forma apropiada, (2) que aseguren la reproducibilidad y calidad de sus gráficos (3) que empleen la función `ggplotly()` para obtener gráficos interactivos.
+*Objetivo*: Que los estudiantes puedan (1) elegir una paleta de colores en relación a la función `scale_*()` de forma apropiada, (2) que aseguren la reproducibilidad y calidad de sus gráficos (3) que empleen la función `ggplotly()` para obtener gráficos interactivos.
  
 #### Clase 4 - **Aplicaciones web con `Shiny` / dashboards** - Miércoles 30 de junio 
 * Introduccion al paquete `Shiny`. Diferencias con un dashboard. 
 * Interactividad: uniendo la interfaz de usuari@ con el servidor.
 * Deploy de la app en shinyapps.io. Otros tipo de deploy.
-- Cierre del curso -
+Cierre del curso 
 
 *Objetivo*: Que los estudiantes puedan realizar una shiny app básica que permita al usuari@ modificar de forma interactiva variables de alguno de los gráficos que se desarrollaron durante el curso.
 
