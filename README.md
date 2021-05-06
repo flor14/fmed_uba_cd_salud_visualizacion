@@ -12,41 +12,45 @@ _Micaela Zapata_ - _Fmed - UBA_ -
 
 ----------
 
-Visualización de datos abarca desde los primeros análisis exploratorios al inicio de un proyecto como las consideraciones que debemos tener al momento de publicar nuestros gráficos finales con calidad.
-Este módulo del curso ciencia de datos en salud propone de una forma práctica y concisa a traves de cuatro clases, uan serie de herramientas para poder 
-¿Cómo elegir la mejor forma de visualizar mis datos? ¿Qué herramientas disponibles en R existen para permitirme  
+¡Hola, agradeceriamos si puedes completar nuestra [Encuesta inicial]()
+
+----------
+
+El módulo de visualización presenta herramientas para graficar en R utilizando bases de datos relevantes para las ciencias de la salud. Introduciendo de una forma amena la programación, todo el curso esta diseñado para brindar solo los conceptos teoricos esenciales para ayudarlos a reconocer y evitar las complicaciones que suelen aparecer al momento de escribir código, acompañando al estudiante en sus primeros pasos en el rol de analista de datos. 
+
+Luego de las cuatro clases propuestas será evidente la versatilidad que brinda R para visualización; en pocas líneas de código generaremos desde gráficos reproducibles con calidad de publicación así como visualizaciones interactivas que facilitan la comunicación de nuestros resultados para un público amplio.
 
 ----------
 ## Programa
 
-Clase 1 - **Introducción a la visualización de datos en R y al paquete `ggplot2`** - Miércoles 9 de junio 
+#### Clase 1 - **Introducción a la visualización de datos en R y al paquete `ggplot2`** - Miércoles 9 de junio 
 * ¿Qué es el `tidyverse` y por qué es importante conocerlo? 
-* Estructura básica de un gráfico `ggplot2` ¿Cómo nos ayuda que este paquete utilice la "gramática de gráficos"?
-* Evitando errores frecuentes
-* Consideraciones para elegir el gráfico más adecuado para tus datos.
-* Presentación de algunos de los tipos de gráficos más usados. Funciones `geom_*()`.
+* Introducción a `ggplot2` ¿Cómo nos ayuda que este paquete utilice la "gramática de gráficos"?
+* Presentación de algunos de los tipos de gráficos más comunes. Funciones `geom_*()` y `aes()`.
 
-Objetivo: Que los estudiantes puedan crear un gráfico basico usando `ggplot2()` y puedan comprender los errores más comunes asociados a la función `aes()` y la creacion de capas.
+*Objetivo*: Que los estudiantes creen un gráfico básico usando `ggplot2()` y comprendan los fundamentos téoricos necesarios para evitar errores comunes que pueden aparecer ligados a (1) mapear tres variables (función `aes()`) y (2) la creación de gráficos en capas.
 
-Clase 2 - **El desafío de graficar tus datos** - Miércoles 16 de junio 
-* No sé por dónde empezar: ¿Dónde podemos buscar ayuda o inspiración? Algunos errores comunes en relación al tipo 
-* Control, alta y baja: el paquete `forcats` para trabajar con categorias.
-* ¿Existe alguna alternativa al clásico gráfico de barras?
-* Selección de una escala de colores adecuada y transformaciones en los ejes. Funciones `scale_*()`, `coord_*()`.
+#### Clase 2 - **El desafío de graficar tus datos** - Miércoles 16 de junio 
+* Preparando mi base de datos para graficar: tipos de datos y formato de tablas `long` y `wide` en relación a los tipos de gráficos.
+* Control, alta y baja: el paquete `forcats` nos ayuda a trabajar con categorias.
+* ¿Existe alguna alternativa al clásico gráfico de barras? Reflexionando sobre algunas visualizaciones comunes en el campo de las ciencias de la salud.
 
-Objetivo: Que los estudiantes puedan, partiendo de código de gráficos ya armados, visualizar sus propios datos (1) ajustando los argumentos de los graficos, (2)
+*Objetivo*: Que los estudiantes puedan realizar modificaciones en las bases de datos en relación a (1) el tipo de dato de las columnas que representan sus variables de interes, (2) el formato ancho o largo de la tabla y (3) variables factoriales. Se pretende que el estudiante reconozca en base al gráfico deseado las transformaciones necesarias de realizar a sus datos de base.
 
-Clase 3 - **Gráficos interactivos y Reproducibilidad** - Miércoles 23 de junio 
-* Cúando y dónde: algunas consideraciones para trabajar con fechas y coordenadas geográficas.
-* Graficos interactivos en `plotly` y el concepto de sintaxis en programación.
-* ¿Cómo puede salvarte tiempo la reproducibilidad?. Funciones `theme_*()` y `ggsave()`.
+#### Clase 3 - **Escalas, Gráficos interactivos y Reproducibilidad** - Miércoles 23 de junio 
+* Selección de una paleta de colores adecuada (divergente, secuencial o cualitativa). Transformaciones en los ejes. Funciones `scale_*()` y `coord_*()`.
+* ¿Cómo puede salvarte tiempo la reproducibilidad?. Comunicación efectiva de resultados. Funciones `theme_*()` y `ggsave()`.
+* Gráficos interactivos en `plotly` y nociones sobre el concepto de sintaxis en programación que pueden evitarte dolores de cabeza.
+
+*Objetivo*: Que los estudiantes puedan (1) elegir una paleta de colores para la función `scale_*()` de forma apropiada, (2) que aseguren la reproducibilidad y calidad de sus gráficos (3) que empleen la función `ggplotly()` para obtener gráficos interactivos.
  
-Clase 4 - **Aplicaciones web / dashboards** - Miércoles 30 de junio 
-* `Shiny` 
-* Interactividad
-* Cierre del curso
+#### Clase 4 - **Aplicaciones web con `Shiny` / dashboards** - Miércoles 30 de junio 
+* Introduccion al paquete `Shiny`. Diferencias con un dashboard. 
+* Interactividad: uniendo la interfaz de usuari@ con el servidor.
+* Deploy de la app en shinyapps.io. Otros tipo de deploy.
+- Cierre del curso -
 
-Objetivo: que los estudiantes puedan realizar una aplicacion donde puedan 
+*Objetivo*: Que los estudiantes puedan realizar una shiny app básica que permita al usuari@ modificar de forma interactiva variables de alguno de los gráficos que se desarrollaron durante el curso.
 
 ----------
 
