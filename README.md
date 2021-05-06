@@ -22,7 +22,7 @@ Agradeceriamos si puedes completar nuestra [encuesta inicial]()
 
 ## Nuestra propuesta
 
-El módulo de visualización presenta herramientas para graficar en R utilizando bases de datos relevantes para las ciencias de la salud. Todo el curso esta enfocado en brindar los conceptos teóricos esenciales para reconocer y evitar las complicaciones típicas que suelen aparecer al escribir el código de los gráficos. Es decir, nuestra prioridad es acompañar al estudiante en sus primeros pasos en el rol de científic@ de datos con R. 
+El módulo de visualización presenta herramientas para graficar en R utilizando bases de datos relevantes para las ciencias de la salud. Nuestra prioridad es acompañar al estudiante en sus primeros pasos en el rol de científic@ de datos con R. Todo el curso esta enfocado en brindar los conceptos teóricos esenciales para reconocer y evitar las complicaciones típicas que suelen aparecer al escribir el código de los gráficos, haciendo énfasis en la práctica. 
 
 En el transcurso de las cuatro clases propuestas será evidente la versatilidad que brinda R para visualización; en pocas líneas de código generaremos desde gráficos reproducibles con calidad de publicación así como visualizaciones interactivas que facilitan la comunicación de nuestros resultados para un público amplio.
 
