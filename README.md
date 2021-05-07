@@ -53,7 +53,7 @@ En el transcurso de las cuatro clases propuestas será evidente la versatilidad 
  
 #### Clase 4 - **Aplicaciones web con `Shiny` / dashboards** - Miércoles 30 de junio 
 * Introduccion al paquete `Shiny`. Diferencias con un dashboard. 
-* Interactividad: uniendo la interfaz de usuari@ con el servidor.
+* Reactividad: uniendo la interfaz de usuari@ con el servidor.
 * Deploy de la app en shinyapps.io. Otros tipo de deploy.
 Cierre del curso 
 
